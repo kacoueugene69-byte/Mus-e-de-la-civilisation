@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  /* Ivorian Cultural Colors (Terracotta, Gold Wood, Deep Forest, Clean Ivory) */
+  --color-ivory-50: #fdfdfa;
+  --color-ivory-100: #faf7ed;
+  --color-ivory-200: #f3ecd6;
+  --color-ivory-300: #e6dab1;
+  --color-ivory-800: #3c3523;
+  --color-ivory-900: #2a2517;
+
+  --color-terracotta-50: #fef5f2;
+  --color-terracotta-100: #fde8e1;
+  --color-terracotta-200: #fcd5c7;
+  --color-terracotta-300: #f7b29a;
+  --color-terracotta-400: #f08362;
+  --color-terracotta-500: #e35a34;
+  --color-terracotta-600: #d04521;
+  --color-terracotta-700: #ae3418;
+  --color-terracotta-800: #902e19;
+  --color-terracotta-900: #78291a;
+
+  --color-gold-50: #fdfbe8;
+  --color-gold-100: #fdf7c3;
+  --color-gold-200: #fbe98c;
+  --color-gold-300: #f8d348;
+  --color-gold-400: #f4ba1b;
+  --color-gold-500: #d99a0c;
+  --color-gold-600: #bb7608;
+  --color-gold-700: #945308;
+  --color-gold-800: #7a410e;
+  --color-gold-900: #653610;
+
+  --color-forest-900: #1a2c1f;
+  --color-forest-950: #0f1c14;
+}
+
+/* Base resets & global styles matching the museum theme */
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-ivory-50);
+  color: var(--color-ivory-900);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+/* Beautiful custom fine scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-ivory-100);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-terracotta-300);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-terracotta-400);
+}
+

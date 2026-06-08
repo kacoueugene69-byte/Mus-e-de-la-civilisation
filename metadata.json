@@ -1,0 +1,6 @@
+{
+  "name": "Musée Numérique de Côte d'Ivoire",
+  "description": "Plateforme interactive de découverte et de gestion du Musée Numérique des Civilisations de Côte d'Ivoire. Découvrez les œuvres en 3D, faires des visites virtuelles, explorez le patrimoine ethnique et gérez la billetterie.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
